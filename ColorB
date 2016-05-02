@@ -1,0 +1,4 @@
+#import "Colours.h"
+colorWithRed:green:blue:alpha: 
+UIColor *newColor = [UIColor colorFromHexString:@"#f587e4"];
+NSString *hexString = [newColor hexString];
